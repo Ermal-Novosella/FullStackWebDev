@@ -1,0 +1,58 @@
+div.gallery{
+    margin:5px;
+    border:1px solid greenyellow;
+    float:left;
+    width:150px;
+    
+}
+div.gallery:hover{
+    border:1px solid rgb(77, 49, 49);
+
+}
+div.gallery img{
+    width:100%;
+    height:auto;
+
+}
+.description{
+    padding: 15px;
+    text-align: center;
+    border:2px solid black;
+}
+.sprite{
+    background: url("./houses.png") no-repeat;
+}
+.engineers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: 0px;
+}
+.shadow{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px -500px;
+}
+a[href="https://shkolladigjitale.com/"]{
+    color: blue;
+}
+p[class*="ds"]{
+    background:blue;
+    color: brown;
+    padding: 30px;
+}
+img[title^="natyra1"]{
+    border: 1px solid burlywood;
+}
+h1[class|="header-1"]{
+    background: purple;
+    padding: 15px;
+    color:yellow;
+}
+input[placeholder="name"]{
+    border: 2px solid red;
+}
+input[readonly]{
+    border: 3px solid green;
+}
