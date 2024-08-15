@@ -1,0 +1,57 @@
+:root{
+    --primary-color:darkblue;
+    --secondary-color: white;
+    --padding:21px;
+}
+h1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+p{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+#examp-one{
+    margin:10px;
+    width: 151px;
+    height: 152px;
+    border-radius: 10px;
+    background-color: green;
+}
+#examp-two{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border:2px dotted orange;
+}
+#examp-three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border:2px dotted yellow;
+}
+#examp-four{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 300px/100px;
+    border:2px solid yellow;
+}
+#examp-five{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border:2px dotted red;
+}
+#examp-six{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border:2px dotted blue;
+}
