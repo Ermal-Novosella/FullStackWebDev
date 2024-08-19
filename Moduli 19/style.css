@@ -1,0 +1,53 @@
+.container1{
+    display: flex;
+    background-color: red;
+}
+div{
+    background-color: white;
+    margin:30px;
+    padding: 20px;
+    font-size: 35px;
+} 
+.container{
+    display: flex;
+    background-color: darkblue;
+}
+.container div:nth-child(1){
+    order: 2;
+}
+.container div:nth-child(2){
+    order: 4;
+}
+.container div:nth-child(3){
+    order: 1;
+}
+.container div:nth-child(4){
+    order: 3;
+}
+
+.container2{
+    display: flex;
+    background-color: darkblue;
+    flex-direction: column-reverse;
+}
+.container3{
+    display: flex;
+    background-color: green;
+    flex-direction: row;
+}
+.container3 div:nth-child(1){
+    flex-grow: 4;
+}
+.container4 {
+    display: flex;
+    background-color: red;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.container5 {
+    display: flex;
+    background-color: green;
+    flex-direction: row;
+    justify-content: flex-end;
+}
