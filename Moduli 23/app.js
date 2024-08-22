@@ -38,7 +38,7 @@ console.log(triangle(30,40));
 
 var car ={
     name:"Ferrari",
-    color:"black"
+    color:"black",
     year:2024,
     km:0,
     startengine:function(){
@@ -54,14 +54,17 @@ var car ={
 console.log(car.getkm);
 
 car.setKm = 100
-console.log(car.getkm)
-alert(car['color'])
+
+console.log(car.getkm);
+
+alert(car['color']);
+
 car.startengine();
 
 
 var shkolla={
-    emri:"aaaaa",
-    mbiemri: "hello",
+    emri:"ermal",
+    mbiemri: "novosella",
     students:1500,
     year: 2019
 }
