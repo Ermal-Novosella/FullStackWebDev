@@ -3,16 +3,16 @@ function search(){
 
     input = document.getElementById("myInput")
     filter = input.value.toUpperCase();
-    ul.document.getElementById("myList");
-    li = ul.getElementById("li");
+    ul = document.getElementById("myList");
+    li = ul.getElementsByTagName("li");
 
     for (i=0; i<li.length; i++){
         a = li[i]
-        txtValue = a.textContext
-        if (txtValue.toUpperCase().indexof(filter)> -1){
-            li[i].style.display = "block";
+        txtValue = a.textContent
+        if (txtValue.toUpperCase().indexOf(filter)> -1){
+            a.style.display = "block";
         } else {
-            li[i].style.display = "none";
+            a.style.display = "none";
         }
     }
 }
